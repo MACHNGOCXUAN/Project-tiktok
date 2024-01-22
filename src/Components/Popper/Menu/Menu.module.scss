@@ -1,0 +1,56 @@
+.menu-items {
+  width: 224px;
+  height: 224px;
+  padding: 8px 0 8px 0;
+}
+
+.menu-item {
+  margin-left: 0;
+  display: block;
+  text-decoration: none;
+  color: rgba(22, 24, 35, 1);
+  border: none;
+  font-family: Arial, Tahoma, sans-serif;
+  background-color: white;
+  padding: 10px 8px 10px 16px;
+  font-weight: 520;
+  font-size: 16px;
+  line-height: 21px;
+  width: 224px;
+  height: 41px;
+  text-align: start;
+
+  &.separate {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+  }
+
+  &:hover {
+    background-color: rgb(248, 244, 244);
+  }
+}
+
+//header
+
+.header {
+  position: relative;
+  height: 50px;
+  width: 223;
+}
+
+.back {
+  border: 1px solid transparent;
+  background-color: white;
+  height: 100%;
+  font-size: 20px;
+  margin-left: 28px;
+}
+
+.header-title {
+  position: absolute;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

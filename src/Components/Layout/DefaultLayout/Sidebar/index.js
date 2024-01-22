@@ -1,5 +1,7 @@
+import Style from "./Sidebar.module.scss";
+import clsx from "clsx";
 function Sidebar() {
-  return <h1>Sidebar</h1>;
+  return <aside className={clsx(Style.wrapper)}>Sideber</aside>;
 }
 
 export default Sidebar;

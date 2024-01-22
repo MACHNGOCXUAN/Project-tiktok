@@ -1,0 +1,84 @@
+.wrapper {
+  font-size: 1.6rem;
+  line-height: 21px;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 4px;
+  user-select: none;
+  background-color: transparent;
+
+  + .wrapper {
+    margin-left: 16px;
+  }
+
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
+
+.primary {
+  font-weight: 700;
+  width: 100px;
+  height: 36px;
+  background-color: rgb(254, 44, 85);
+  color: rgb(255, 255, 255);
+  margin-left: 16px;
+  &:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+      rgb(254, 44, 85);
+  }
+}
+
+.follow {
+  color: rgba(254, 44, 85, 1);
+  border-color: rgba(254, 44, 85, 1);
+  min-width: 96px;
+  height: 36px;
+  font-weight: 500;
+  background-color: rgba(254, 44, 85, 0);
+  &:hover {
+    background-color: rgba(254, 44, 85, 0.08);
+  }
+}
+
+.big {
+  color: rgb(254, 44, 85);
+  border-color: rgb(254, 44, 85);
+  min-width: 168px;
+  min-height: 48px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+
+.getapp {
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  background: none rgb(255, 255, 255);
+  color: rgba(22, 24, 35, 0.75);
+  font-weight: 700;
+  font-size: 14px;
+  width: 90px;
+  height: 32px;
+  border-radius: 40px;
+}
+
+.upload {
+  min-width: 110px;
+  padding: 0px 16px;
+  height: 36px;
+  border: 1px solid rgba(22, 24, 35, 0.12);
+  background: rgb(255, 255, 255);
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
